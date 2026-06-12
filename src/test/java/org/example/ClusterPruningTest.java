@@ -73,9 +73,9 @@ class ClusterPruningTest {
 
     static Stream<Arguments> queryAndExpectedSizeProvider() {
         return Stream.of(
-                Arguments.of(Map.of("ai", 1.0), 2),        // Очікуємо кластер 1-2
-                Arguments.of(Map.of("java", 1.0), 2),      // Очікуємо кластер 3-4
-                Arguments.of(Map.of("unknown", 1.0), 0)    // Нічого не знайдено
+                Arguments.of(Map.of("ai", 1.0), 2),
+                Arguments.of(Map.of("java", 1.0), 2),
+                Arguments.of(Map.of("unknown", 1.0), 0)
         );
     }
 
