@@ -15,6 +15,8 @@ dependencies {
 
     testImplementation("org.junit.platform:junit-platform-suite-engine:6.1.0")
     testImplementation("org.junit.jupiter:junit-jupiter-params:6.1.0")
+
+    testImplementation("org.junit.platform:junit-platform-console-standalone:6.1.0")
 }
 
 tasks.test {
